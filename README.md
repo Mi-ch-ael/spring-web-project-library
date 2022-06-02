@@ -4,7 +4,7 @@
 ## Описание
 Проект представляет собой переписанную на Java + Spring [лабораторную работу](https://github.com/Mi-ch-ael/web-lab2-REST-basics)
 по дисциплине "web-технологии". Функционал приложения не изменился: можно просматривать и редактировать список имеющихся книг, "брать" и "возвращать"
-книги. Технологии: Spring Boot, Spring Web, Spring Data JPA, pug-шаблоны, [Pug4J for Spring](https://github.com/neuland/spring-pug4j).
+книги. Технологии: Spring Boot, Spring Web, Spring Data JPA, Pug ([Pug4J for Spring](https://github.com/neuland/spring-pug4j)).
 
 Моей задачей было переписывание серверной логики по [образцу](https://github.com/Mi-ch-ael/web-lab2-REST-basics),
 по возможности с минимальными изменениями в шаблонах; кроме того, я организовал хранение списка книг в базе данных. Я пока не ставил перед собой задачу
@@ -17,6 +17,8 @@ cd spring-web-project-library
 mvn install
 mvn spring-boot:run
 ```
+
+Приложение запустится на [http://localhost:18080](http://localhost:18080).
 
 ## TODO
 * Передавать идентификатор книги как параметр запроса;
